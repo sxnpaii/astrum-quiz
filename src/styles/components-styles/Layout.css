@@ -1,0 +1,27 @@
+main {
+  @apply w-full text-center px-10;
+}
+
+main .Head {
+  @apply h-[25vh] flex items-center justify-center;
+}
+
+main .Hero {
+  @apply text-white uppercase;
+}
+
+main .Hero h1 {
+  @apply text-4xl mb-4 tracking-wide font-extrabold uppercase;
+}
+
+main .Hero p {
+  @apply mb-14;
+}
+
+main .Hero img {
+  @apply inline-block mb-12;
+}
+
+main .Hero p.info {
+  @apply mb-5;
+}

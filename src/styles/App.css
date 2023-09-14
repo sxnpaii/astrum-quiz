@@ -1,0 +1,19 @@
+body {
+  background: url("../assets/design/Gradient.png") no-repeat top center / cover;
+  @apply bg-[#000B23] py-6 h-screen;
+  animation: intro 1s ease-in-out;
+}
+@keyframes intro {
+  from {
+    @apply opacity-0
+  }
+  to{
+    @apply opacity-100
+  }
+}
+.btn {
+  @apply text-[#581DFF] text-center font-bold tracking-wide rounded-3xl bg-white p-3;
+  /* 16px */
+  letter-spacing: 0.16px;
+  text-transform: capitalize;
+}
