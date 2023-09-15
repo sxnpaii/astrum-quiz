@@ -8,7 +8,7 @@ export default {
     // TODO -> must be edited
     extend: {
       backgroundImage: {
-        'back-img': "url(/Images/Group\ 29.png), url(/Images/Group\ 59.png), url(/Images/Ellipse\ 4.png), url(/Images/Mask\ Group.png)"
+        'back-img': "url(/src/Images/Ellipse\ 4.png), url(/src/Images/Group\ 29.png), url(/src/Images/Group\ 59.png), url(/src/Images/Mask\ Group.png)"
       },
 
       width: {
@@ -24,6 +24,10 @@ export default {
 
       content: {
         'myContent': '1 '
+      },
+
+      fontFamily: {
+        'font_Verdana': 'Verdana, Geneva, Tahoma, sans-serif',
       }
     },
   },

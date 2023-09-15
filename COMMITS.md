@@ -16,3 +16,11 @@
 
 - Completed form page layout
 - Page in `index.html`
+
+---
+
+### Commit № 003 || _@alimboyev_
+
+- Completed design form-page
+- Completed layout form-page 
+
