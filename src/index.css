@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*:after,
+*::before{
+    @apply m-0 p-0 box-border font-sans 
+}
+body{
+    @apply bg-back-img m-0 py-0 px-1 justify-center  items-center bg-[#000B23] bg-cover bg-fixed overflow-hidden w-[100%]
+}
+
+.register_container{
+    @apply max-w-[100%] h-[100%] my-0 mx-auto  py-0 px-1 justify-center items-center
+}
+
+.register_logo{
+   @apply max-w-[100%] h-14 shrink-0 justify-center items-center text-center my-8 mx-0 
+
+}
+
+.register_logo img{
+    @apply w-[16] h-16 shrink-0 my-[48px] mx-[115px] p-0
+}
+
+.register_title{
+    @apply w-[100%] text-center m-0 py-0 px-[5px]
+}
+
+.register_title p{
+  @apply text-white text-center font-sans text-[24px] not-italic font-[700] my-0 mx-auto
+}
+
+.register_text{
+    @apply my-[50px] mx-[8%] text-center p-0 
+}
+
+
+.register_text p{
+@apply w-[300px] text-white font-sans text-[16px] font-[700]
+}
+
+.register_text span{
+    @apply text-[18px]
+}
+
+.registration_form{
+    @apply max-w-[100%] justify-center items-center p-0 my-0 mx-auto
+}
+
+.form_inputs{
+    @apply w-[310px] shrink-0 rounded-[19px] border-[#fff] bg-background backdrop-blur-sm my-0 mx-[auto] py-5 px-4
+}
+
+.forms_texts_row::before{
+    
+    @apply w-[16px] h-[16px] shrink-0 rounded-sm text-white bg-[#E49999] text-center content-['1']
+}
+
+.forms_texts-row::before{
+    @apply w-[16px] h-[16px] content-['2'] shrink-0 rounded-[3px] text-white bg-[#E49999] text-center
+}
+
+
+.register_user_name,
+.register_phone_number{   
+    @apply w-[247px] h-10 shrink-0 rounded-[7px] border-[1px] border-white bg-[#0E184A] outline-0 text-white py-6 px-[10px] 
+}
+
+.registration_form input::placeholder{
+    @apply text-white
+}
+
+.forms_texts_row,
+.forms_texts-row{
+    @apply w-1/5 my-0 mx-[10px] flex items-center justify-between
+}
+
+.forms_texts-row{
+    @apply w-[50%]
+}
+
+.forms_texts-row p,
+.forms_texts_row p{
+    @apply text-white font-sans 
+    
+}
+
+.inputs_item{
+    @apply my-[30px] mx-0 justify-center items-center
+}
+
+.register_btn{
+    @apply rounded-3xl bg-white text-[#581dff] text-center font-bold  border-none my-5 mx-auto py-4 px-10
+}

@@ -11,3 +11,8 @@
 - Created `README.md` for additional informations in GitHub
 
 ---
+
+### Commit № 002 || _@alimboyev_
+
+- Completed form page layout
+- Page in `index.html`
