@@ -24,3 +24,10 @@
 - Completed design form-page
 - Completed layout form-page 
 
+---
+
+### Commit № 004 || _@alimboyev_
+
+- Created last page 
+- Created result pages 
+
