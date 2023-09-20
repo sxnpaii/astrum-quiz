@@ -1,0 +1,34 @@
+@import url(../index.css);
+
+form {
+  @apply text-left text-white
+}
+
+form h2 {
+  @apply text-2xl font-semibold font-['Ruda'] capitalize leading-normal mb-6
+}
+
+form legend {
+  @apply text-[20px] font-bold font-['Ruda'] capitalize leading-none mb-14
+}
+
+form div {
+  @apply flex items-center mb-12;
+}
+
+form div input {
+  @apply w-[18px] h-[18px] bg-neutral-200 rounded-full border-4 border-neutral-400
+}
+
+form div label {
+  @apply text-[14px] font-bold font-['Ruda'] uppercase leading-[11px] ml-4
+}
+
+form button.inactive {
+  @apply btn-inactive;
+  /* @apply pointer-events-none mt-10 px-4 py-2 font-["Ruda"] text-center font-bold tracking-wide rounded-3xl capitalize bg-white text-zinc-400 bg-opacity-30 */
+}
+
+form button.active {
+  @apply btn-active
+}

@@ -1,0 +1,20 @@
+@import url(../index.css);
+
+section h3 {
+  @apply text-white text-2xl font-semibold font-['Ruda'] capitalize leading-normal mb-6
+}
+
+section p {
+  @apply text-center text-base text-white font-bold font-['Ruda'] leading-none
+}
+
+section img {
+  @apply inline-block my-7 mx-auto w-[110px] rotate-[-2.74deg]
+}
+section p.result{
+  @apply mb-14
+}
+
+section .btn{
+  @apply btn-active mt-16;
+}

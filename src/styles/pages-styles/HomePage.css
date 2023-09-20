@@ -1,0 +1,18 @@
+.Hero{
+  /* @apply  */
+}
+.Hero h1 {
+  @apply font-extrabold;
+  font-family: "Ruda", sans-serif;
+}
+.Hero p{
+  @apply font-semibold;
+  font-family: "Ruda", sans-serif;
+}
+.Hero p.info{
+  @apply opacity-70;
+}
+.Hero .btn {
+  @apply text-[#581DFF] text-center font-bold tracking-wide rounded-3xl bg-white px-4 py-2 capitalize;
+  font-family: "Ruda", sans-serif;
+}

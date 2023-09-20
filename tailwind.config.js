@@ -5,7 +5,6 @@ export default {
     "./src/**/*.{js,jsx}"
   ],
   theme: {
-    // TODO -> must be edited
     extend: {},
   },
   plugins: [],

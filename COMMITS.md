@@ -25,3 +25,13 @@
 - Requested data from `Supabase`
 - Created `Layout` component
 - Added minimal styles
+
+---
+
+### Commit №005 || _@sxnpaii_
+
+- Fully styled pages and components
+- Created component **Progress**
+- Created and used Context to migrate functions
+- Completed `Result` page
+- Created function for collecting submitted answers with `sessionStorage`

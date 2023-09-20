@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn-active {
+    @apply text-[#581DFF] bg-white mt-10 px-4 py-2 font-["Ruda"] text-center font-bold tracking-wide rounded-3xl capitalize
+  }
+
+  .btn-inactive {
+    @apply pointer-events-none mt-10 px-4 py-2 font-["Ruda"] text-center font-bold tracking-wide rounded-3xl capitalize bg-white text-zinc-400 bg-opacity-30
+  }
+}

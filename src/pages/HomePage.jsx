@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 import { supabase } from "../../supabase"
 // assets
 import HomePageCheck from "../assets/design/HomePageCheck.png"
+import "../styles/pages-styles/HomePage.css"
+
 // data from db
 const { data } = await supabase.from("Quiz").select("*")
 
@@ -14,7 +16,10 @@ const HomePage = () => {
       <img src={HomePageCheck} alt="" />
       <p className='info'>Время выполнения 5 минут</p>
       {/* navigate to first question of survey */}
-      <Link to={`/quiz/${data[0].id}`} className="btn">Поехали !</Link>
+      <Link
+        to={`/quiz/${data[0].id}`}
+        className="btn"
+      >Поехали</Link>
     </div>
   )
 }
